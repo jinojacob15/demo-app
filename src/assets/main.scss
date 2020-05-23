@@ -1,0 +1,38 @@
+.LoginPage{
+    .card{
+        margin-top: 160px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+        .show-password{
+            display: inline;
+            position: absolute;
+            top: 37px;
+            right: 28px;
+        }
+        .submit-btn{
+            margin-top: 10px;
+        }
+    }
+}
+
+.invalid-feedback{
+    display: inline-block
+}
+
+.usersList{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    .UsersListTable{
+        margin-top: 10px;;
+    }
+  
+}
+
+
+.CreateUserModal {
+    max-width: 600px;
+    .react-datepicker-wrapper{
+        display:block;
+     }
+}
